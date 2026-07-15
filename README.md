@@ -29,20 +29,6 @@ DimHand 是首个在**动态弱光条件**下捕捉连续运动的**大规模 3D
 
 ---
 
-## 📦 Dataset Statistics | 数据集统计
-
-| Statistic | Value |
-|-----------|-------|
-| Total frames | **745,280** 🎞️ |
-| Subjects | **15** (9 male, 6 female) 👫 |
-| Actions | **15** distinct gestures 🤲 |
-| Camera views | **5** 📷 |
-| Illumination range | **0.1 – 10 lux** 💡 |
-| Modality | RGB + Depth 🎨📏 |
-| Annotations | 3D Joints + MANO + Mesh 🏷️ |
-
----
-
 ## 📊 Website Sections | 网页内容导览
 
 Our project website [https://hanlingzhan.github.io/DimHand/](https://hanlingzhan.github.io/DimHand/) includes:
@@ -59,8 +45,23 @@ Our project website [https://hanlingzhan.github.io/DimHand/](https://hanlingzhan
 | 📋 **Application** | Dataset request form |
 
 ---
-```
+
+## 📦 Dataset Statistics | 数据集统计
+
+| Statistic | Value |
+|-----------|-------|
+| Total frames | **745,280** 🎞️ |
+| Subjects | **15** (9 male, 6 female) 👫 |
+| Actions | **15** distinct gestures 🤲 |
+| Camera views | **5** 📷 |
+| Illumination range | **0.1 – 10 lux** 💡 |
+| Modality | RGB + Depth 🎨📏 |
+| Annotations | 3D Joints + MANO + Mesh 🏷️ |
+
+---
+
 ## 🗂️ Directory Structure | 目录结构
+```
 ${ROOT}
 ├── multidata/
 │ ├── subject01 ~ subject15/
@@ -87,12 +88,15 @@ ${ROOT}
 
 If you use DimHand in your research, please cite:
 bibtex
+
+```
 @inproceedings{zhan2026dimhand,
 title={DimHand: A Large-Scale Benchmark for Hand Pose Estimation under Dynamic Low-Light Conditions},
 author={Zhan, Hanling and Ren, Pengfei and Zhang, Haoyang and Wang, Xinyi and Xie, Liang and Yin, Erwei},
 booktitle={Proceedings of the 34th ACM International Conference on Multimedia (MM '26)},
 year={2026}
 }
+```
 
 ---
 
