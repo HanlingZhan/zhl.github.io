@@ -59,15 +59,15 @@ Our project website [https://hanlingzhan.github.io/DimHand/](https://hanlingzhan
 | 📋 **Application** | Dataset request form |
 
 ---
-
+```
 ## 🗂️ Directory Structure | 目录结构
 ${ROOT}
 ├── multidata/
 │ ├── subject01 ~ subject15/
 │ │ ├── action01 ~ action15/
 │ │ │ ├── camera0 ~ camera4/
-│ │ │ │ ├── rgb/ # RGB sequences 🎨
-│ │ │ │ ├── depth/ # Depth maps 📏
+│ │ │ │ ├── rgb/ # RGB sequences 
+│ │ │ │ ├── depth/ # Depth maps 
 │ │ │ │ └── center_uvd.json
 │ │ │ └── camera_paras.json
 │ │ │...
@@ -75,12 +75,12 @@ ${ROOT}
 ├── annotations/
 │ ├── subject01 ~ subject15/
 │ │ ├── action01 ~ action15/
-│ │ │ ├── joint.json # 3D joints 🦴
-│ │ │ ├── mano.json # MANO params 🤖
-│ │ │ └── mesh.json # 3D mesh 🕸️
+│ │ │ ├── joint.json # 3D joints 
+│ │ │ ├── mano.json # MANO params 
+│ │ │ └── mesh.json # 3D mesh 
 │ │ │...
 │ │...
-
+```
 ---
 
 ## 📖 Citation | 引用
